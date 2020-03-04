@@ -35,6 +35,7 @@ class AnimalListFragment : Fragment() {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_animal_list, container, false)
 
+
         // Create an adapter with 3 parameters: activity (this), layout, list
         val myAdapter = ArrayAdapter<String>(view.context, android.R.layout.simple_list_item_1, animalList)
 
